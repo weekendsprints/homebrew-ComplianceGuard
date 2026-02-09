@@ -11,20 +11,20 @@ class Complianceguard < Formula
   on_macos do
     if Hardware::CPU.arm?
       url "https://github.com/weekendsprints/ComplianceGuard/releases/download/v0.0.1/complianceguard-darwin-arm64.tar.gz"
-      sha256 "52ace32cb6341a80e6720d28e9af49b3bc35f5abb0e7ff69d7aeeb1a0ec93d14"
+      sha256 "cca6f626112dd8d70ea431a29de62ae18e251d428bbde4d32ee8649d57fb9f75"
     else
       url "https://github.com/weekendsprints/ComplianceGuard/releases/download/v0.0.1/complianceguard-darwin-amd64.tar.gz"
-      sha256 "84a776bdcb62512d321a4e7049b9b3fdc58d3265eb01c7e53352033aad8ef9af"
+      sha256 "efb4d774407a3a079dc04988a3d05f0989ae5291d732623d2d244f4a964e583b"
     end
   end
 
   on_linux do
     if Hardware::CPU.arm?
       url "https://github.com/weekendsprints/ComplianceGuard/releases/download/v0.0.1/complianceguard-linux-arm64.tar.gz"
-      sha256 "72fa31e860d13f36cc956c63e557df9351334727a3e970c2914ee5255a8dd662"
+      sha256 "6250edd25a0c8088d548ccb9ea07f6fc3d78c924a9c23fdffe2458cc1d71166f"
     else
       url "https://github.com/weekendsprints/ComplianceGuard/releases/download/v0.0.1/complianceguard-linux-amd64.tar.gz"
-      sha256 "56279abf4bd9768447e851b27bd42cbc62d33ee9d093fd093ce19daf793de281"
+      sha256 "a8c7684e2dac533421fdf4af6c33bb0aa2aa66e857d302aec0d44fae32f2de53"
     end
   end
 
